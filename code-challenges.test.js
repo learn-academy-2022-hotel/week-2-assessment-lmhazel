@@ -35,11 +35,11 @@ const object2 = { number: 0 }
 const object3 = { number: -7 }
 // Expected output: "-7 is not divisible by three"
 
-// describe("divisible3", () => {
-//     it("returns whether or not the input is divisible by three", () => {
-//       expect(divisible3()).toEqual("15 is divisible by three")
-//     })
-//   })
+describe("divisible3", () => {
+    it("returns whether or not the input is divisible by three", () => {
+      expect(divisible3()).toEqual("15 is divisible by three")
+    })
+  })
   //output: good failure
 
 // b) Create the function that makes the test pass.
@@ -69,11 +69,11 @@ const randomNouns1 = ["streetlamp", "potato", "teeth", "conclusion", "nephew"]
 const randomNouns2 = ["temperature", "database", "chopsticks", "mango"]
 // Expected output: ["Temperature", "Database", "Chopsticks", "Mango"]
 
-// describe("capitalWords", () => {
-//         it("returns an array with all the words capitalzed", () => {
-//           expect(capitalWords()).toEqual(["Streetlamp", "Potato", "Teeth", "Conclusion", "Nephew"])
-//         })
-//       })
+describe("capitalWords", () => {
+        it("returns an array with all the words capitalzed", () => {
+          expect(capitalWords()).toEqual(["Streetlamp", "Potato", "Teeth", "Conclusion", "Nephew"])
+        })
+      })
 //output: good failure
 
 // b) Create the function that makes the test pass.
@@ -101,11 +101,11 @@ const vowelTester2 = "academy"
 const vowelTester3 = "challenges"
 // Expected output: 2
 
-// describe("vowelIndex", () => {
-//     it("returns the index of the first vowel", () => {
-//         expect(vowelIndex()).toEqual(1)
-//        })
-// })
+describe("vowelIndex", () => {
+    it("returns the index of the first vowel", () => {
+        expect(vowelIndex()).toEqual(1)
+       })
+})
 // output: good failure
 
 // b) Create the function that makes the test pass.
